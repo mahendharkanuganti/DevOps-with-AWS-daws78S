@@ -1,7 +1,7 @@
 # 3 Tier Architecture Mini Project Important Notes and Tips.
 
 As per the readme files for frontend, backend and MysqlDB, create the instances and configure them.
-so you will face an issue when you enter below command in backend as it won't complete or connect with backend server.
+so you will face an issue when you enter below command in backend as it won't complete or connect with DB server.
 
 ```
 mysql -h 172.31.45.116 -uroot -pExpenseApp@1 < /app/schema/backend.sql
