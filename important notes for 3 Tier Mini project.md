@@ -26,11 +26,15 @@ Here you will see all the expense detais we give in the GUI once we connect to a
 
 Then now in frontend server after installing nginx and all, you will face an issue while connecting to it from browser and the default page will not showup. It because we didn't allowed port 80 in outboud/inboud rules.
 So allow the same.
+
 After downloading the application and unzipping it, if you try to connect again from browser, It won't connect. So then check the services from all the servers.
+
 frontend: nginx should be running
 backend: backend service should be running
 Mysql-DB: mysqld service should be in running state.
+
 Also if you till face any issues, check if you have allowed 3306,80,8080, 22 port to anywhere in security Groups.
+
 If any of the above service is in failed state, application won't be able to connect.
 
  ++++++++++++++++ END ++++++++++++++++++
